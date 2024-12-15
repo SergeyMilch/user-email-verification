@@ -50,7 +50,7 @@ Content-Type: application/json
 "name": "John Doe",
 "email": "john@example.com"
 }
-Ответ будет содержать verification\*link. Откройте его в браузере или сделайте GET запрос.
+Ответ будет содержать verification_link. Откройте его в браузере или сделайте GET запрос.
 Подтверждение email:
 GET http://localhost:8080/users/verify?token=<полученный токен>
 Ожидаемый ответ:
